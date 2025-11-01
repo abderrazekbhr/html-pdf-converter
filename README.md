@@ -1,46 +1,106 @@
-# Getting Started with Create React App
+# HTML to PDF Converter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-0.1.0-green.svg)](package.json)
+[![React](https://img.shields.io/badge/React-19.2.0-61dafb.svg)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-3178c6.svg)](https://www.typescriptlang.org/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.18-38bdf8.svg)](https://tailwindcss.com/)
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+A professional-grade HTML to PDF conversion tool built with React and TypeScript. Transform your HTML content into high-quality PDF documents with real-time preview and extensive customization options.
 
-### `npm start`
+## Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Interactive Editor
+- Real-time HTML editing with syntax highlighting
+- Code autocompletion and error detection
+- Multiple themes support
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Advanced PDF Generation
+- Live preview while editing
+- Customizable page settings
+- Header and footer support
+- Custom fonts and styling
 
-### `npm test`
+### Professional UI/UX
+- Clean, modern interface with Tailwind CSS
+- Responsive design for all devices
+- Dark/Light mode support
+- Intuitive controls
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Developer Experience
+- TypeScript for enhanced code quality
+- Modular architecture
+- Comprehensive documentation
+- Extensive test coverage
 
-### `npm run build`
+## Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Make sure you have installed:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (v16.x or higher)
+- npm (v7.x or higher) or yarn (v1.22.x or higher)
+- Modern web browser (Chrome, Firefox, Safari, or Edge)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+git clone https://github.com/yourusername/converter-html-pdf.git
+cd converter-html-pdf
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Quick Start
 
-## Learn More
+1. Start the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Open your browser and visit: [http://localhost:3000](http://localhost:3000)
+
+3. Start editing HTML and see the PDF preview in real-time!
+
+## Project Structure
+
+```plaintext
+converter-html-pdf/
+├── public/                 # Static files
+├── src/                    # Source code
+│   ├── components/        # React components
+│   │   ├── editor/       # HTML editor components
+│   │   └── render/       # PDF rendering components
+│   ├── context/          # React context providers
+│   ├── consts/          # Constants and configurations
+│   └── App.tsx           # Main application component
+├── package.json          # Project dependencies
+└── tsconfig.json         # TypeScript configuration
+```
+
+## Development
+
+### Available Scripts
+
+- `npm start` - Start development server
+- `npm build` - Build production bundle
+- `npm test` - Run test suite
+- `npm run eject` - Eject from Create React App
+
+## Contributing
+
+We welcome contributions! Please follow these steps:
+
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
