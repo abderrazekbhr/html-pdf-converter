@@ -1,8 +1,35 @@
-# Getting Started with Create React App
+# HTML to PDF Converter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Version](https://img.shields.io/badge/version-0.1.0-green.svg)
+![React](https://img.shields.io/badge/React-19.2.0-blue.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue.svg)
 
-## Available Scripts
+A professional, enterprise-grade HTML to PDF conversion tool built with React and TypeScript. This application provides a powerful, browser-based solution for converting HTML content to PDF documents with advanced customization options.
+
+## 🚀 Features
+
+- 🎨 Live HTML editor with syntax highlighting
+- 📄 Real-time PDF preview
+- ⚙️ Customizable PDF output settings
+- 💅 Modern, responsive UI with Tailwind CSS
+- 📱 Cross-browser compatibility
+- 🛡️ Type-safe development with TypeScript
+- 🧪 Comprehensive test coverage
+
+## 📋 Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [Project Structure](#project-structure)
+- [Architecture](#architecture)
+- [Configuration](#configuration)
+- [Development](#development)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
 In the project directory, you can run:
 
