@@ -1,0 +1,27 @@
+.contents {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: stretch;
+    width: 40vw;
+}
+
+.ideConfigDark,
+.ideConfigLight {
+    display: flex;
+    gap: 20px;
+    max-height: 20%;
+    padding: 2em 1em;
+}
+
+.ide {
+    flex: 1 !important;
+    width: auto !important;
+}
+
+.ideConfigLight {
+    background-color: #FBFBFB;
+}
+.ideConfigDark {
+    background-color: #181818;
+}
